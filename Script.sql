@@ -1,6 +1,7 @@
 -- Data Cleaning Project Script
 -- Purpose: This script performs data cleaning operations on the Nashville housing dataset.
--- Skills used: Substring, CharIndex, ParseName, Rank, CTEs, Joins, Window Functions, Aggregate Functions, Altering and updating columns
+-- Skills used: Substring, CharIndex, ParseName, Ranking Functions (ROW_NUMBER), CTEs, Joins, Window Functions, Aggregate Functions,
+-- Altering and updating columns
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
