@@ -3,8 +3,6 @@
 ## Overview
 This repository contains a SQL script for cleaning and preparing the Nashville housing dataset. The script performs various data cleaning operations to standardize the data and make it suitable and ready for analysis.
 
-### Link to Dataset: https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning%20(reuploaded).xlsx
-
 This dataset was obtained from GitHub, initially posted on Kaggle.
 
 ### If you want to jump straight to running the SQL queries, read just this following point:
@@ -27,5 +25,12 @@ The purpose of this project is to demonstrate data cleaning techniques using SQL
 - Window Functions
 - Aggregate Functions
 - Altering and updating columns
+  
 ## Files
-- `script.sql`: SQL script for cleaning the Nashville housing dataset.
+- `Script.sql`: SQL script for cleaning the Nashville housing dataset.
+- `Nashville Housing Data for Data Cleaning.csv`: dataset file in csv format
+- `Nashville Housing Data for Data Cleaning.xlsx`: dataset file in xlsx (excel workbook) format
+
+## Dataset:   
+Link: https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning%20(reuploaded).xlsx
+The Nashville Housing dataset used in this project is sourced from this GitHub repo, initially posted on Kaggle
