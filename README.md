@@ -28,9 +28,19 @@ The purpose of this project is to demonstrate data cleaning techniques using SQL
   
 ## Files
 - `Script.sql`: SQL script for cleaning the Nashville housing dataset.
-- `Nashville Housing Data for Data Cleaning.csv`: dataset file in csv format
-- `Nashville Housing Data for Data Cleaning.xlsx`: dataset file in xlsx (excel workbook) format
+- `Nashville Housing Data for Data Cleaning.csv`: Dataset file in csv format
+- `Nashville Housing Data for Data Cleaning.xlsx`: Dataset file in xlsx (excel workbook) format
+
+## Script Breakdown
+1. **Load Dataset**: Initial step to load the NashvilleHousing dataset.
+2. **Standardize Date Format**: Changes the column name of SaleDate_datetime and standardizes the date format.
+3. **Populate Property Address Data**: Handles NULL PropertyAddress values by updating them with corresponding values from other rows.
+4. **Breaking out Address**: Splits PropertyAddress and OwnerAddress columns into individual components (Address, City, State).
+5. **Change Y and N to Yes and No**: Updates values in the SoldAsVacant field from 'Y' and 'N' to 'Yes' and 'No', respectively.
+6. **Remove Duplicates**: Deletes duplicate rows based on selected columns to ensure data integrity.
+7. **Delete Unused Columns**: Removes columns (OwnerAddress, TaxDistrict, PropertyAddress) that are no longer needed.
 
 ## Dataset:   
 Link: https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning%20(reuploaded).xlsx
+
 The Nashville Housing dataset used in this project is sourced from this GitHub repo, initially posted on Kaggle
